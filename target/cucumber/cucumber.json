@@ -1,0 +1,596 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2781748233,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTests()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 74539,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.finisTests(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 588854853,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2375967,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the username as \"admin\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                },
+                {
+                  "val": "admin",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStep.iEnterTheUsernameAsAndPasswordAs(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63563036,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21590,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "This feature deals with the login functionality of the app",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2227157275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTests()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 51919,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.finisTests(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 556030829,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66864305,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the following for login",
+            "match": {
+              "location": "LoginStep.iEnterTheFollowingForLogin(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26873310,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35984,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "This feature deals with the login functionality of the app",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "LoginWithDataTable.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2243666187,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTests()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 50377,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.finisTests(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 704711787,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88932,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the user email address as Email:admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 40
+                }
+              ],
+              "location": "LoginStep.iEnterTheUserEmailAddressAsEmailAdmin(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68370,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the username as \"admin\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 25
+                },
+                {
+                  "val": "admin",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginStep.iEnterTheUsernameAsAndPasswordAs(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51020581,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30329,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "This feature deals with the login functionality of the app",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "LoginWithDataTransformation.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2220808168,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTests()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 34955,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.finisTests(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 560239921,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112579,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter admin and adminpassword for login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 8
+                },
+                {
+                  "val": "adminpassword",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginStep.iEnterUsernameAndPasswordForLogin(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53907006,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33413,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2246156274,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTests()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 42666,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.finisTests(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 549934638,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111036,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter user and pass123 for login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user",
+                  "offset": 8
+                },
+                {
+                  "val": "pass123",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginStep.iEnterUsernameAndPasswordForLogin(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47080855,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44209,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "This feature deals with the login functionality of the app",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "LoginWithExamples.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2711435641,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTests()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 33414,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.finisTests(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 406747398,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.iNavigateToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 226185,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I just need test lambdas in java 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 33
+                }
+              ],
+              "location": "StepWithJava8.java:8"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "This feature deals with the login functionality of the app",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "LoginWithLambdas.feature"
+  }
+]
